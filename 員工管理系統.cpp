@@ -14,7 +14,7 @@ int main()
 	{
 		wm.show_menu();
 		int choice = 0;
-		cout << "叫块匡拒" << endl;
+		cout << "請輸入選擇" << endl;
 		cin >> choice;
 		switch (choice)
 		{
