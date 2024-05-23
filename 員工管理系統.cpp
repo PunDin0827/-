@@ -14,36 +14,36 @@ int main()
 	{
 		wm.show_menu();
 		int choice = 0;
-		cout << "½Ğ¿é¤J¿ï¾Ü" << endl;
+		cout << "å«å—î—°åŒ¡æ‹’" << endl;
 		cin >> choice;
 		switch (choice)
 		{
-		case 0:  //°h¥X¨t²Î
+		case 0:  //é€€å‡ºç³»çµ±
 			wm.exitSystem();
 				break;
-		case 1: //¼W¥[­û¤u
+		case 1: //å¢åŠ å“¡å·¥
 			wm.Add_Emp();
 				break;
-		case 2: //Åã¥Ü­û¤u
+		case 2: //é¡¯ç¤ºå“¡å·¥
 			wm.show_Emp();
 				break;
-		case 3: //§R°£­û¤u
+		case 3: //åˆªé™¤å“¡å·¥
 			wm.del_Emp();
 				break;
-		case 4: //­×§ï­û¤u¸ê®Æ
+		case 4: //ä¿®æ”¹å“¡å·¥è³‡æ–™
 			wm.mod_Emp();
 				break;
-		case 5: //¬d¸ß­û¤u¸ê®Æ
+		case 5: //æŸ¥è©¢å“¡å·¥è³‡æ–™
 			wm.fine_Emp();
 				break;
-		case 6: //±Æ§Ç 
+		case 6: //æ’åº 
 			wm.sort_Emp();
 				break;
-		case 7: //²MªÅÀÉ®×
+		case 7: //æ¸…ç©ºæª”æ¡ˆ
 			wm.clean_File();
 				break;
 		default:
-				system("cls"); //²M°£Åã¥Üµe­±
+				system("cls"); //æ¸…é™¤é¡¯ç¤ºç•«é¢
 				break;
 		}
 	}
