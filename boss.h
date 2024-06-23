@@ -2,12 +2,11 @@
 #include<iostream>
 #include"worker.h"
 using namespace std;
-//¦ÑÁóÃş
+//è€é—†é¡
 class Boss :public Worker
 {
 public:
 	Boss(int id, string name, int did);
 	virtual void show_Info();
-	//Àò¨úÂ¾ºÙ
 	virtual string getDepName();
 };
