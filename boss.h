@@ -7,6 +7,8 @@ class Boss :public Worker
 {
 public:
 	Boss(int id, string name, int did);
+	//顯示個人資訊
 	virtual void show_Info();
+	//獲取職稱
 	virtual string getDepName();
 };
